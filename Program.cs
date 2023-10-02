@@ -199,15 +199,16 @@ namespace PracticeSet01
             //    }
 
             //}
-            //string name = "Shadab";
-            //string rev = "";
-            //for(int i=0; i<name.Length-1; i+=2)
-            //{
-            //    //rev += name[i + 1];
-            //    rev += name[i];
-            //}
+            string name = "Shadab";
+            string rev = "";
+            for (int i = 0; i < name.Length - 1; i += 2)
+            {
+                //rev += name[i + 1];
+                rev += name[i];
+            }
 
-            //Console.WriteLine(rev);
+            Console.WriteLine(rev);
+
             int count = 0;
             for(int i=5; i>=0; i--)
             {
@@ -225,9 +226,6 @@ namespace PracticeSet01
                 Console.Write("*");
 
             }
-
-
-
         }
     }
 }
