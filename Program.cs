@@ -151,22 +151,22 @@ namespace PracticeSet01
             //Console.WriteLine(secmax);
 
 
-            //string str = "shadab hasan khan";
-            //Dictionary<char, int> counts = new Dictionary<char, int>();
-            //for (int i = 0; i < str.Length; i++)
-            //{
-            //    if (!counts.ContainsKey(str[i]))
-            //    {
-            //        counts.Add(str[i], 1);
+            string str = "shadab hasan khan";
+            Dictionary<char, int> counts = new Dictionary<char, int>();
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (!counts.ContainsKey(str[i]))
+                {
+                    counts.Add(str[i], 1);
 
-            //    }
+                }
 
-            //}
-            //foreach (var count in counts)
-            //{
+            }
+            foreach (var item in counts)
+            {
 
-            //    Console.WriteLine("{0}={1}", count.Key, count.Value.ToString());
-            //}
+                Console.WriteLine("{0}={1}", item.Key, item.Value.ToString());
+            }
 
             //Console.Write("Enter a String : ");
             //string inputString = "shadab hasan khan";
